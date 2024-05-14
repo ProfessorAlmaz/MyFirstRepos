@@ -1,0 +1,110 @@
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: #eeeebf;
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 8px 20px #000;
+    }
+    
+    body {
+      height: 700px;
+    }
+  header .logo {
+    font-size: 25px;
+    transition: .5s;
+    background: linear-gradient(135deg, rgb(69, 94, 216), rgb(9, 155, 171));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 0.5em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    font: small-caps bold 25pt/1em shrikhand;
+  }
+  
+  header .logo:hover {
+    transform: scale(1.2);
+  }
+  
+  .input h1 {
+    color: #0e1208;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .input {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:120px;
+    width: 700px;	height: 50px;
+  }
+
+  .input input {
+    width: 200px; height: 30px;
+    font-size: 17px;
+    border-radius: 3px;
+    background-color: #daffdf;
+  }
+
+  .input button {
+    background-color: #6dbbff;
+    width: 100px;	height: 30px;
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: #c0b6ff;
+  }
+
+  .results {
+    margin-top: 80px;
+    width: 350px;	height: 400px; /* Размеры */
+    background: linear-gradient(135deg, rgb(238, 211, 124), rgb(140, 238, 242)); /*Цвет фона */
+    outline: 4px solid #6fca5d; /*Внешняя рамка*/
+    border: 3px solid #fff; /*Внутренняя рамка*/
+    border-radius: 3px; /*Радиус скругления*/
+  }
+
+  .temperature {
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #770ea0;
+  }
+
+  .clouds {
+    margin-top: 60px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #7344f4;
+  }
+
+  .wind {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #7344f4;
+  }
+
+  .icons {
+    margin-top: 30px;
+  }
+
+  footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 5px; /* Поля вокруг текста */
+    background: #3a84a1; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+
+  .footer {
+    position: fixed;
+    right: 0;
+  }
